@@ -1,0 +1,26 @@
+name: ${PERSONAL_PREFIX:?Set PERSONAL_PREFIX in .env}
+services:
+  db:
+    image: postgres:17.6
+    environment:
+      POSTGRES_DB: ${PERSONAL_PREFIX}
+      POSTGRES_USER: librarian
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U librarian -d $$POSTGRES_DB"]
+      interval: 2s
+      retries: 30
+    volumes: ["dbdata:/var/lib/postgresql/data"]
+  app:
+    build: .
+    environment:
+      PERSONAL_PREFIX: ${PERSONAL_PREFIX}
+      DATABASE_URL: postgresql://librarian:${DB_PASSWORD}@db:5432/${PERSONAL_PREFIX}
+      API_PASSWORD: ${API_PASSWORD:?Set API_PASSWORD}
+    ports: ["20001:8000"]
+    volumes: ["./results:/app/results"]
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  dbdata:

@@ -1,0 +1,1277 @@
+{
+  "mode": "small",
+  "prefix": "maxim_bobrovnikov",
+  "timestamp": "2026-10-06T10:48:57+0000",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+  "python": "3.12.11",
+  "before_counts": {
+    "readers": 50,
+    "books": 100,
+    "copies": 200,
+    "loans": 300
+  },
+  "after_counts": {
+    "readers": 51,
+    "books": 100,
+    "copies": 221,
+    "loans": 321
+  },
+  "samples": [
+    {
+      "operation": "list",
+      "total_ms": 35.88596999998117,
+      "server_ms": 31.628909000119165,
+      "db_ms": 4.344116000083886,
+      "code_ms": 27.28479300003528,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 36.10586800004967,
+      "server_ms": 32.22398299976703,
+      "db_ms": 5.007076999845594,
+      "code_ms": 27.216905999921437,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 37.025731000085216,
+      "server_ms": 33.159327000248595,
+      "db_ms": 4.925743999592669,
+      "code_ms": 28.233583000655926,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 35.123586999816325,
+      "server_ms": 31.275098000151047,
+      "db_ms": 4.627777000223432,
+      "code_ms": 26.647320999927615,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 35.564216999773635,
+      "server_ms": 32.222153000020626,
+      "db_ms": 4.653806000078475,
+      "code_ms": 27.56834699994215,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 34.39730300033261,
+      "server_ms": 30.89565300024333,
+      "db_ms": 4.414394000377797,
+      "code_ms": 26.48125899986553,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 35.48444499983816,
+      "server_ms": 31.646633000036672,
+      "db_ms": 4.499772999679408,
+      "code_ms": 27.146860000357265,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 37.04935799987652,
+      "server_ms": 33.26967499970124,
+      "db_ms": 5.288015000132873,
+      "code_ms": 27.981659999568365,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 37.88832200007164,
+      "server_ms": 33.855070999834425,
+      "db_ms": 5.641488000037498,
+      "code_ms": 28.213582999796927,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 46.57627799997499,
+      "server_ms": 42.44596799981082,
+      "db_ms": 13.846820999788179,
+      "code_ms": 28.59914700002264,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 44.180243000027986,
+      "server_ms": 39.85458299985112,
+      "db_ms": 6.490965000011784,
+      "code_ms": 33.363617999839335,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 43.90934599996399,
+      "server_ms": 39.84552299971256,
+      "db_ms": 6.376856000315456,
+      "code_ms": 33.4686669993971,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 45.01479200007452,
+      "server_ms": 41.128937999928894,
+      "db_ms": 5.704536999928678,
+      "code_ms": 35.424401000000216,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 37.091947000135406,
+      "server_ms": 33.884144999774435,
+      "db_ms": 4.589702999965084,
+      "code_ms": 29.29444199980935,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 35.430301999895164,
+      "server_ms": 32.02685799988103,
+      "db_ms": 4.730833000394341,
+      "code_ms": 27.29602499948669,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 36.39152499999909,
+      "server_ms": 32.50659800005451,
+      "db_ms": 5.155312000169943,
+      "code_ms": 27.351285999884567,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 35.893240999939735,
+      "server_ms": 32.36614199977339,
+      "db_ms": 4.920238000067911,
+      "code_ms": 27.44590399970548,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 32.39839500020025,
+      "server_ms": 28.6060980001821,
+      "db_ms": 4.094831999736925,
+      "code_ms": 24.511266000445175,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 33.5650879997047,
+      "server_ms": 30.369981000148982,
+      "db_ms": 4.344969000158017,
+      "code_ms": 26.025011999990966,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "list",
+      "total_ms": 32.790532000035455,
+      "server_ms": 29.35129700017569,
+      "db_ms": 4.2734619996736,
+      "code_ms": 25.07783500050209,
+      "queries": 2,
+      "bytes": 2904,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.70629200000985,
+      "server_ms": 31.14428599974417,
+      "db_ms": 5.363118000332179,
+      "code_ms": 25.78116799941199,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.92491099996187,
+      "server_ms": 31.441402999917045,
+      "db_ms": 5.301219000102719,
+      "code_ms": 26.140183999814326,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.40893299966774,
+      "server_ms": 30.785743999786064,
+      "db_ms": 4.738056999940454,
+      "code_ms": 26.04768699984561,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.12198000023636,
+      "server_ms": 30.534207000073366,
+      "db_ms": 4.950211000050331,
+      "code_ms": 25.583996000023035,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.491804000026605,
+      "server_ms": 31.286053999792784,
+      "db_ms": 5.432607000329881,
+      "code_ms": 25.853446999462903,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.542178999799944,
+      "server_ms": 31.063024000104633,
+      "db_ms": 4.823639999813167,
+      "code_ms": 26.239384000291466,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.871146000114095,
+      "server_ms": 31.291778000195336,
+      "db_ms": 4.7649990001445985,
+      "code_ms": 26.526779000050738,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 36.4596940003139,
+      "server_ms": 32.77684600016073,
+      "db_ms": 5.381295999995928,
+      "code_ms": 27.395550000164803,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.546176999810996,
+      "server_ms": 31.045397000070807,
+      "db_ms": 5.558389000270836,
+      "code_ms": 25.48700799979997,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.545126000011805,
+      "server_ms": 31.14761599999838,
+      "db_ms": 5.481094999595371,
+      "code_ms": 25.66652100040301,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 36.022610000145505,
+      "server_ms": 32.380460999775096,
+      "db_ms": 5.101974000353948,
+      "code_ms": 27.278486999421148,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.96305199996641,
+      "server_ms": 30.6890189999649,
+      "db_ms": 4.981700999906025,
+      "code_ms": 25.707318000058876,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.5677479999722,
+      "server_ms": 31.225591000293207,
+      "db_ms": 5.104855999888969,
+      "code_ms": 26.12073500040424,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 35.70865300025616,
+      "server_ms": 32.34909399998287,
+      "db_ms": 5.357169000035356,
+      "code_ms": 26.991924999947514,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 36.222911999630014,
+      "server_ms": 32.161043000087375,
+      "db_ms": 4.942907999520685,
+      "code_ms": 27.21813500056669,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 35.885518999748456,
+      "server_ms": 31.475910000153817,
+      "db_ms": 4.980298000191397,
+      "code_ms": 26.49561199996242,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 35.37351300019509,
+      "server_ms": 31.908701999782352,
+      "db_ms": 4.898645000139368,
+      "code_ms": 27.010056999642984,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 34.750428999814176,
+      "server_ms": 30.905317999895487,
+      "db_ms": 4.955721999976959,
+      "code_ms": 25.94959599991853,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 38.24843799975497,
+      "server_ms": 34.1876110001067,
+      "db_ms": 5.618645000140532,
+      "code_ms": 28.568965999966167,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "filter",
+      "total_ms": 39.2195009999341,
+      "server_ms": 35.402869999870745,
+      "db_ms": 5.830868999964878,
+      "code_ms": 29.572000999905868,
+      "queries": 2,
+      "bytes": 2903,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 36.94109900015974,
+      "server_ms": 32.88831100007883,
+      "db_ms": 5.98589199989874,
+      "code_ms": 26.90241900018009,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 37.43147400018643,
+      "server_ms": 33.25556800018603,
+      "db_ms": 5.499968000094668,
+      "code_ms": 27.755600000091363,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 35.804303999611875,
+      "server_ms": 32.02685999985988,
+      "db_ms": 6.0183089999554795,
+      "code_ms": 26.0085509999044,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 43.962606999684795,
+      "server_ms": 39.95989399982136,
+      "db_ms": 7.593477000227722,
+      "code_ms": 32.36641699959364,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 37.19814999976734,
+      "server_ms": 33.30040700029713,
+      "db_ms": 5.773810000391677,
+      "code_ms": 27.52659699990545,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 38.35135999997874,
+      "server_ms": 34.46728700009771,
+      "db_ms": 6.144486999801302,
+      "code_ms": 28.32280000029641,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 38.204034000045795,
+      "server_ms": 33.862193999993906,
+      "db_ms": 5.609794999600126,
+      "code_ms": 28.25239900039378,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 38.99541400005546,
+      "server_ms": 34.96111699996618,
+      "db_ms": 5.614673999843944,
+      "code_ms": 29.346443000122235,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 39.7525759999553,
+      "server_ms": 35.56811100042978,
+      "db_ms": 5.840568000166968,
+      "code_ms": 29.727543000262813,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 39.05038199991395,
+      "server_ms": 35.12663299989072,
+      "db_ms": 7.650117000139289,
+      "code_ms": 27.476515999751427,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 39.438185000108206,
+      "server_ms": 34.40347500009011,
+      "db_ms": 5.394135999722494,
+      "code_ms": 29.009339000367618,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 36.31399500000043,
+      "server_ms": 32.06292599998051,
+      "db_ms": 5.5512859998998465,
+      "code_ms": 26.51164000008066,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 37.05891699974018,
+      "server_ms": 33.012028000030114,
+      "db_ms": 5.985702000089077,
+      "code_ms": 27.026325999941037,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 35.09361699980218,
+      "server_ms": 31.295066000438965,
+      "db_ms": 5.88109499994971,
+      "code_ms": 25.413971000489255,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 35.4257429999052,
+      "server_ms": 31.459889999950974,
+      "db_ms": 5.364992000068014,
+      "code_ms": 26.09489799988296,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 34.18310500001098,
+      "server_ms": 30.610619000071893,
+      "db_ms": 5.73359400004847,
+      "code_ms": 24.877025000023423,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 36.40586100027576,
+      "server_ms": 32.52429500025755,
+      "db_ms": 6.321243000002141,
+      "code_ms": 26.20305200025541,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 41.364358000009815,
+      "server_ms": 37.547568999798386,
+      "db_ms": 6.546070000240434,
+      "code_ms": 31.001498999557953,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 36.016460999690025,
+      "server_ms": 31.953007000083744,
+      "db_ms": 5.461525000100664,
+      "code_ms": 26.49148199998308,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "detail",
+      "total_ms": 36.54949300016597,
+      "server_ms": 32.92787500004124,
+      "db_ms": 6.084098999963317,
+      "code_ms": 26.843776000077924,
+      "queries": 1,
+      "bytes": 295,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.93457999997918,
+      "server_ms": 33.631167999828904,
+      "db_ms": 7.141847999719175,
+      "code_ms": 26.48932000010973,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 37.78530099998534,
+      "server_ms": 34.12030000026789,
+      "db_ms": 8.274997000171425,
+      "code_ms": 25.845303000096465,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.10333599999649,
+      "server_ms": 32.687886000076105,
+      "db_ms": 7.290549000117608,
+      "code_ms": 25.397336999958497,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.88984700011133,
+      "server_ms": 33.514577000005374,
+      "db_ms": 7.24320000017542,
+      "code_ms": 26.271376999829954,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.34134699996139,
+      "server_ms": 32.86367300006532,
+      "db_ms": 7.636981999894488,
+      "code_ms": 25.22669100017083,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 37.28594999984125,
+      "server_ms": 33.8280810001379,
+      "db_ms": 7.6091579999229,
+      "code_ms": 26.218923000215,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 37.42006499987838,
+      "server_ms": 33.91442600013761,
+      "db_ms": 7.908554999630724,
+      "code_ms": 26.005871000506886,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 41.06683200006955,
+      "server_ms": 37.18280299972321,
+      "db_ms": 7.912356000360887,
+      "code_ms": 29.27044699936232,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 45.98254900020038,
+      "server_ms": 40.67742100005489,
+      "db_ms": 8.720925000034185,
+      "code_ms": 31.956496000020707,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.131729999851814,
+      "server_ms": 32.68493599989597,
+      "db_ms": 7.6897310000276775,
+      "code_ms": 24.995204999868292,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 39.535875000183296,
+      "server_ms": 35.79168299984303,
+      "db_ms": 8.193279999886727,
+      "code_ms": 27.598402999956306,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 37.468266999894695,
+      "server_ms": 34.10811799994917,
+      "db_ms": 7.42254100032369,
+      "code_ms": 26.685576999625482,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 38.7485569999626,
+      "server_ms": 35.03695700010212,
+      "db_ms": 9.279268000227603,
+      "code_ms": 25.757688999874517,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.68605600023511,
+      "server_ms": 33.31375099969591,
+      "db_ms": 7.925270000214368,
+      "code_ms": 25.388480999481544,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.48855299979914,
+      "server_ms": 33.030381000116904,
+      "db_ms": 7.1724659997016715,
+      "code_ms": 25.857915000415232,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.37470100011342,
+      "server_ms": 32.89539700017485,
+      "db_ms": 7.4436810000406695,
+      "code_ms": 25.451716000134184,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.1262399997031,
+      "server_ms": 32.760735000010754,
+      "db_ms": 7.436076999965735,
+      "code_ms": 25.32465800004502,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 36.67580699993778,
+      "server_ms": 32.93830800021169,
+      "db_ms": 7.90384299989455,
+      "code_ms": 25.03446500031714,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 39.50656999995772,
+      "server_ms": 35.756814999786,
+      "db_ms": 8.47852300012164,
+      "code_ms": 27.27829199966436,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "summary",
+      "total_ms": 42.029257000194775,
+      "server_ms": 37.98596299975543,
+      "db_ms": 7.893219000379759,
+      "code_ms": 30.09274399937567,
+      "queries": 2,
+      "bytes": 675,
+      "status": 200
+    },
+    {
+      "operation": "issue",
+      "total_ms": 44.33878600002572,
+      "server_ms": 40.07897300016339,
+      "db_ms": 10.783255000205827,
+      "code_ms": 29.29571799995756,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 44.2046510002001,
+      "server_ms": 40.089968999836856,
+      "db_ms": 10.734522000802826,
+      "code_ms": 29.35544699903403,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 43.84670900026322,
+      "server_ms": 40.11853600013637,
+      "db_ms": 12.188923000394425,
+      "code_ms": 27.92961299974195,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 46.12892700015436,
+      "server_ms": 42.06352200026231,
+      "db_ms": 10.81201700026213,
+      "code_ms": 31.25150500000018,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 44.734149999840156,
+      "server_ms": 40.76190100022359,
+      "db_ms": 11.735372000202915,
+      "code_ms": 29.026529000020673,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 43.27147399999376,
+      "server_ms": 39.64952499973151,
+      "db_ms": 10.49337300037223,
+      "code_ms": 29.15615199935928,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 46.23428800005058,
+      "server_ms": 42.399044999910984,
+      "db_ms": 11.751009999898088,
+      "code_ms": 30.648035000012896,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 47.18679199959297,
+      "server_ms": 43.46409299978404,
+      "db_ms": 11.654665000150999,
+      "code_ms": 31.809427999633044,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 42.13058999994246,
+      "server_ms": 38.1619480003792,
+      "db_ms": 10.236998999971547,
+      "code_ms": 27.92494900040765,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 41.4087340000151,
+      "server_ms": 37.8592040001422,
+      "db_ms": 9.932161999586242,
+      "code_ms": 27.927042000555957,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 42.527494999831106,
+      "server_ms": 38.74161300018386,
+      "db_ms": 9.911973999351176,
+      "code_ms": 28.829639000832685,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 41.540244999850984,
+      "server_ms": 38.05836099991211,
+      "db_ms": 9.778019000805216,
+      "code_ms": 28.280341999106895,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 41.99246700000003,
+      "server_ms": 38.215252999634686,
+      "db_ms": 9.708816999591363,
+      "code_ms": 28.506436000043323,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 44.68927400012035,
+      "server_ms": 41.42167899999549,
+      "db_ms": 10.66972899980101,
+      "code_ms": 30.751950000194483,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 42.17503499967279,
+      "server_ms": 38.387497999792686,
+      "db_ms": 9.96650699971724,
+      "code_ms": 28.420991000075446,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 41.727349999746366,
+      "server_ms": 37.826021000000765,
+      "db_ms": 10.1506790001622,
+      "code_ms": 27.675341999838565,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 43.36237799998344,
+      "server_ms": 39.97750799999267,
+      "db_ms": 11.134273000152461,
+      "code_ms": 28.843234999840206,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 42.319270000007236,
+      "server_ms": 38.77438500012431,
+      "db_ms": 10.938541000086843,
+      "code_ms": 27.83584400003747,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 40.832315999978164,
+      "server_ms": 37.55639499968311,
+      "db_ms": 9.669209000549017,
+      "code_ms": 27.88718599913409,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "issue",
+      "total_ms": 40.8873510000376,
+      "server_ms": 37.66101400015032,
+      "db_ms": 10.070909000660322,
+      "code_ms": 27.590104999489995,
+      "queries": 5,
+      "bytes": 144,
+      "status": 201
+    },
+    {
+      "operation": "return",
+      "total_ms": 36.732126000060816,
+      "server_ms": 33.154227000068204,
+      "db_ms": 5.096429999866814,
+      "code_ms": 28.05779700020139,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 36.09710199998517,
+      "server_ms": 32.51801599981263,
+      "db_ms": 4.903261999515962,
+      "code_ms": 27.61475400029667,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 36.36552599982679,
+      "server_ms": 32.90002300036576,
+      "db_ms": 4.750741000407288,
+      "code_ms": 28.149281999958475,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 36.87211099986598,
+      "server_ms": 33.1294100001287,
+      "db_ms": 5.296910000197386,
+      "code_ms": 27.832499999931315,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 36.978913999973884,
+      "server_ms": 33.124870999927225,
+      "db_ms": 4.876001000411634,
+      "code_ms": 28.24886999951559,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 37.71353399997679,
+      "server_ms": 33.901761999914015,
+      "db_ms": 4.9897469998541055,
+      "code_ms": 28.91201500005991,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 36.50260899985369,
+      "server_ms": 32.76926100033961,
+      "db_ms": 5.147848999968119,
+      "code_ms": 27.621412000371492,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 37.30681699971683,
+      "server_ms": 33.61314899984791,
+      "db_ms": 4.925915000058012,
+      "code_ms": 28.687233999789896,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 43.64462500006994,
+      "server_ms": 39.273989999855985,
+      "db_ms": 6.621404999805236,
+      "code_ms": 32.65258500005075,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 40.586147000340134,
+      "server_ms": 36.46247899996524,
+      "db_ms": 6.537093999668286,
+      "code_ms": 29.925385000296956,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 39.29049899988968,
+      "server_ms": 34.998918999917805,
+      "db_ms": 5.213105999700929,
+      "code_ms": 29.785813000216876,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 38.92944300014278,
+      "server_ms": 34.3791609998334,
+      "db_ms": 5.259971999748814,
+      "code_ms": 29.11918900008459,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 42.93410800028141,
+      "server_ms": 38.76536600000691,
+      "db_ms": 4.976758999873709,
+      "code_ms": 33.7886070001332,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 39.85512500003097,
+      "server_ms": 35.54084699999294,
+      "db_ms": 5.689711000286479,
+      "code_ms": 29.851135999706457,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 38.82331900013014,
+      "server_ms": 34.62812599991594,
+      "db_ms": 4.971541999566398,
+      "code_ms": 29.65658400034954,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 37.76167500018346,
+      "server_ms": 34.065493000071,
+      "db_ms": 5.0324779999755265,
+      "code_ms": 29.033015000095475,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 41.57518100009838,
+      "server_ms": 37.63099600018904,
+      "db_ms": 5.789550999907078,
+      "code_ms": 31.841445000281965,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 37.080428000081156,
+      "server_ms": 33.3948379998219,
+      "db_ms": 5.042767000304593,
+      "code_ms": 28.35207099951731,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 36.617155999920215,
+      "server_ms": 33.07756899994274,
+      "db_ms": 5.340478000107396,
+      "code_ms": 27.737090999835345,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    },
+    {
+      "operation": "return",
+      "total_ms": 39.29195000000618,
+      "server_ms": 35.59036900014689,
+      "db_ms": 7.117110999843135,
+      "code_ms": 28.47325800030376,
+      "queries": 2,
+      "bytes": 184,
+      "status": 200
+    }
+  ],
+  "summary": [
+    {
+      "operation": "list",
+      "p50_ms": 35.9995544999947,
+      "p95_ms": 45.01479200007452,
+      "server_ms": 32.29506249977021,
+      "db_ms": 4.825535500231126,
+      "code_ms": 27.398594999795023,
+      "queries": 2.0
+    },
+    {
+      "operation": "filter",
+      "p50_ms": 34.89802850003798,
+      "p95_ms": 38.24843799975497,
+      "server_ms": 31.28891599999406,
+      "db_ms": 5.103415000121458,
+      "code_ms": 26.189784000052896,
+      "queries": 2.0
+    },
+    {
+      "operation": "detail",
+      "p50_ms": 37.12853349975376,
+      "p95_ms": 41.364358000009815,
+      "server_ms": 33.13379800010807,
+      "db_ms": 5.860831500058339,
+      "code_ms": 27.251420999846232,
+      "queries": 1.0
+    },
+    {
+      "operation": "summary",
+      "p50_ms": 37.110264999910214,
+      "p95_ms": 42.029257000194775,
+      "server_ms": 33.7296244999834,
+      "db_ms": 7.791475000203718,
+      "code_ms": 25.93189300046106,
+      "queries": 2.0
+    },
+    {
+      "operation": "issue",
+      "p50_ms": 42.89948449991243,
+      "p95_ms": 46.23428800005058,
+      "server_ms": 39.21195499992791,
+      "db_ms": 10.58155100008662,
+      "code_ms": 28.668037500438004,
+      "queries": 5.0
+    },
+    {
+      "operation": "return",
+      "p50_ms": 37.737604500080124,
+      "p95_ms": 42.93410800028141,
+      "server_ms": 33.98362749999251,
+      "db_ms": 5.122139499917466,
+      "code_ms": 28.799624499924903,
+      "queries": 2.0
+    }
+  ]
+}

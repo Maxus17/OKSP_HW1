@@ -1,0 +1,15 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>Выдача книг</title>
+<style>body{font:16px system-ui;max-width:1000px;margin:30px auto}input,button,select{padding:8px;margin:4px}pre{white-space:pre-wrap}table{border-collapse:collapse;width:100%}td,th{padding:8px;border:1px solid #bbb}</style>
+<h1>Библиотека — вариант 1</h1><p>Учётная запись: librarian. Пароль из API_PASSWORD.</p>
+<input id="password" type="password" placeholder="Пароль"><button onclick="load()">Войти / обновить</button>
+<h2>Выдать экземпляр</h2><input id="reader" type="number" min="1" placeholder="ID читателя"><input id="copy" type="number" min="1" placeholder="ID экземпляра"><button onclick="issue()">Выдать на 14 дней</button>
+<h2>Выдачи</h2><select id="status"><option value="all">Все</option><option value="active">На руках</option><option value="overdue">Просрочены</option><option value="returned">Возвращены</option></select><button onclick="page=1;load()">Фильтр</button>
+<div id="list"></div><button onclick="page=Math.max(1,page-1);load()">Назад</button><span id="position"></span><button onclick="if(page*20<total){page++;load()}">Вперёд</button>
+<h2>Карточка выдачи</h2><pre id="detail"></pre><h2>Сводка</h2><pre id="summary"></pre><p id="message" role="alert"></p>
+<script>
+let page=1,total=0; const el=id=>document.getElementById(id);
+async function api(path,method='GET',body){const r=await fetch('/api/'+path,{method,cache:'no-store',headers:{Authorization:'Basic '+btoa('librarian:'+el('password').value),'Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});const d=await r.json();if(!r.ok)throw Error(d.error);return d}
+async function safe(fn){try{el('message').textContent='';await fn()}catch(e){el('message').textContent=e.message}}
+function load(){return safe(async()=>{const d=await api('loans?page='+page+'&size=20&status='+el('status').value);total=d.total;el('position').textContent=`Страница ${page}, всего ${total}`;const table=document.createElement('table');table.innerHTML='<tr><th>ID</th><th>Читатель</th><th>Экземпляр</th><th>Срок</th><th>Действия</th></tr>';for(const x of d.items){const tr=table.insertRow();for(const v of [x.id,x.reader_id,x.copy_id,x.due_on])tr.insertCell().textContent=v;const td=tr.insertCell();const b=document.createElement('button');b.textContent='Карточка';b.onclick=()=>safe(async()=>el('detail').textContent=JSON.stringify(await api('loans/'+x.id),null,2));td.append(b);if(!x.returned_on){const ret=document.createElement('button');ret.textContent='Возврат';ret.onclick=()=>safe(async()=>{el('detail').textContent=JSON.stringify(await api('loans/'+x.id+'/return','POST'),null,2);await load()});td.append(ret)}}el('list').replaceChildren(table);el('summary').textContent=JSON.stringify(await api('summary'),null,2)})}
+function issue(){return safe(async()=>{el('detail').textContent=JSON.stringify(await api('loans','POST',{reader_id:Number(el('reader').value),copy_id:Number(el('copy').value),days:14}),null,2);await load()})}
+</script></html>

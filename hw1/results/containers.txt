@@ -1,0 +1,3 @@
+NAME                      IMAGE                   COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+maxim_bobrovnikov-app-1   maxim_bobrovnikov-app   "python app.py"          app       3 minutes ago    Up 3 minutes              0.0.0.0:20001->8000/tcp, [::]:20001->8000/tcp
+maxim_bobrovnikov-db-1    postgres:17.6           "docker-entrypoint.s…"   db        20 minutes ago   Up 20 minutes (healthy)   5432/tcp
